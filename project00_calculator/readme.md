@@ -1,6 +1,6 @@
 <div align="center">
     <img src="preview.png" alt="preview">
-
+</div>
 ### Run
 
 Run this command for test this cli
@@ -11,4 +11,4 @@ Run this command for test this cli
 
 ##npm page link
 https://www.npmjs.com/package/mohsindev-cal
-  </div>
+  
