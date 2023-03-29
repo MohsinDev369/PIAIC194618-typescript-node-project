@@ -1,0 +1,20 @@
+{
+  "name": "project00_calculator",
+  "version": "1.0.0",
+  "description": "mohsin Akram cli calculator ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc index.ts && node index.js"
+  },
+  "author": "MohsinDev369",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.1.5"
+  },
+  "bin": {
+	"multiply": "bin/index.js"
+}
+}
