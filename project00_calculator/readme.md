@@ -9,6 +9,6 @@ Run this command to test this cli
   npx mohsindev-cal
   ```
 
-##npm page link
+npm page link
 https://www.npmjs.com/package/mohsindev-cal
   
