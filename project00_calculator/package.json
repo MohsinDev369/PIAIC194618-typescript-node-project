@@ -1,0 +1,17 @@
+{
+  "name": "project00_calculator",
+  "version": "1.0.0",
+  "description": "mohsindev calculator ",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsc",
+    "global":"npm i -g && npx mohsindev-cal",
+    "build":"npm run start && npm run global"
+  },
+  "bin": {
+    "mohsindev-cal": "bin/index.js"
+  },
+  "author": "mohsindev369",
+  "license": "MIT"
+}
