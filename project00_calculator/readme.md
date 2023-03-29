@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="preview.png" alt="Logo" width="80" height="80">
+    <img src="preview.png" alt="preview">
 
 ### Run
 
