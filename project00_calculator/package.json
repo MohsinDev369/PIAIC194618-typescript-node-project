@@ -1,20 +1,18 @@
 {
-  "name": "project00_calculator",
+  "name": "piaic194618-typescript-node-project",
   "version": "1.0.0",
-  "description": "mohsin Akram cli calculator ",
-  "main": "index.js",
+  "description": "MohsinDEV369 cli calculator ",
+  "main": "bin/index.js",
   "type": "module",
   "scripts": {
-    "start": "tsc index.ts && node index.js"
-  },
-  "author": "MohsinDev369",
-  "license": "MIT",
-  "dependencies": {
-    "chalk": "^5.2.0",
-    "chalk-animation": "^2.0.3",
-    "inquirer": "^9.1.5"
+    "dev":"tsc && node bin/index.js"
   },
   "bin": {
-	"multiply": "bin/index.js"
-}
+    "mohsindev369-cal": "dist/index.js"
+  },
+  "author": "mohsinDev369",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
 }
