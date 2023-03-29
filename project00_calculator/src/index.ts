@@ -2,13 +2,14 @@
 import inquirer from 'inquirer';
 import chalk from 'chalk';
 
-console.log(chalk.green('Welcome to MohsinDev calculator'));
+console.log(chalk.red('Welcome to '+ chalk.green('MohsinDev')+' calculator'));
 
 const questions = [
     {
     type: 'input',
     name: 'equation',
     message: "Enter your math problem",
+    
   },
 ]
 
