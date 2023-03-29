@@ -1,8 +1,8 @@
 <div align="center">
     <img src="preview.png" alt="preview">
 </div>
-### Run
 
+### Run
 Run this command for test this cli
 * npx
   ```sh
