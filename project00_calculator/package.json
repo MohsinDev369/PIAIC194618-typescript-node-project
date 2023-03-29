@@ -6,12 +6,20 @@
   "type": "module",
   "scripts": {
     "start": "tsc",
-    "global":"npm i -g && npx mohsindev-cal",
-    "build":"npm run start && npm run global"
+    "global": "npm i -g && npx mohsindev-cal",
+    "build": "npm run start && npm run global"
   },
   "bin": {
     "mohsindev-cal": "bin/index.js"
   },
   "author": "mohsindev369",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "inquirer": "^9.1.5"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/inquirer": "^9.0.3"
+  }
 }
