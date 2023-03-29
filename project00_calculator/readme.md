@@ -1,3 +1,6 @@
+<div align="center">
+    <img src="preview.png" alt="Logo" width="80" height="80">
+
 ### Run
 
 Run this command for test this cli
@@ -8,3 +11,4 @@ Run this command for test this cli
 
 ##npm page link
 https://www.npmjs.com/package/mohsindev-cal
+  </div>
