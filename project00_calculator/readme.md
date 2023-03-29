@@ -3,7 +3,7 @@
 </div>
 
 ### Run
-Run this command for test this cli
+Run this command to test this cli
 * npx
   ```sh
   npx mohsindev-cal
