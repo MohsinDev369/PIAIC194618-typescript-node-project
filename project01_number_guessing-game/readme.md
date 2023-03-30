@@ -6,9 +6,9 @@
 Run this command to test this cli
 * npx
   ```sh
-  npx mohsindev-cal
+  npx mohsindev-guessgame
   ```
 
 npm page link
-https://www.npmjs.com/package/mohsindev-cal
+https://www.npmjs.com/package/mohsindev-gussinggame
   
