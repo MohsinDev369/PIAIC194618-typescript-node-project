@@ -5,6 +5,7 @@
   "main": "src/index.ts",
   "type": "module",
   "scripts": {
+    "dev":"tsc && node bin/index.js",
     "start": "tsc",
     "global": "npm i -g && npx mohsindev-guessgame",
     "build": "npm run start && npm run global"
