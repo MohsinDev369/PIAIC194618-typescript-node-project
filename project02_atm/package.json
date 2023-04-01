@@ -1,0 +1,26 @@
+{
+  "name": "mohsindev-atm-cli",
+  "version": "1.0.0",
+  "description": "mohsindev atm cli ",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "tsc && node bin/index.js",
+    "start": "tsc",
+    "global": "npm i -g && npx mohsindev-atm-cli",
+    "build": "npm run start && npm run global"
+  },
+  "bin": {
+    "mohsindev-atm-cli": "bin/index.js"
+  },
+  "author": "mohsindev369",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "inquirer": "^9.1.5"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/inquirer": "^9.0.3"
+  }
+}
