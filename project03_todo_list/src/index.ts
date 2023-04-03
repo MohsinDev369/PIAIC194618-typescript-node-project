@@ -3,7 +3,6 @@ import inquirer from 'inquirer';
 import chalk from 'chalk';
 
 let todos: string[] = [];
-chalkAnimation.rainbow('Welcome to mohsinDev todos');
 main();
 
 async function main() {
