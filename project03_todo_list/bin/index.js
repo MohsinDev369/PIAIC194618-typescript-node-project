@@ -1,9 +1,7 @@
 #! /usr/bin/env node
 import inquirer from 'inquirer';
 import chalk from 'chalk';
-import chalkAnimation from 'chalk-animation';
 let todos = [];
-chalkAnimation.rainbow('Welcome to mohsinDev todos');
 main();
 async function main() {
     const { action } = await inquirer.prompt({

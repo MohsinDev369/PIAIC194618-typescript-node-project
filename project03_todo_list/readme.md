@@ -5,7 +5,7 @@
 ### Run
 * Run this command to test this cli
   ```sh
-  npx mohsindev-atm-cli
+  npx mohsindev-todo-cli
   ```
 
 ### Run locally
@@ -18,5 +18,5 @@
   npm run dev
   ```
 npm page link
-https://www.npmjs.com/package/mohsindev-atm-cli
+https://www.npmjs.com/package/mohsindev-todo-cli
   
