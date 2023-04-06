@@ -46,6 +46,7 @@ async function main() {
     }
     if (convertTo === 'Exit') {
         console.log(chalk.yellow('Bye! Bye!'));
+        return true;
     }
 }
 // Each function below relates to each choise 
