@@ -3,8 +3,8 @@ import inquirer from 'inquirer';
 import chalk from 'chalk';
 //rates
 const USDtoPKR_rate = 287.87;
-const one_PKRtoUSD_rate = 0.0035;
-const one_SARtoPKR_rate = 76.74;
+const PKRtoUSD_rate = 0.0035;
+const SARtoPKR_rate = 76.74;
 main();
 async function main() {
     // ask user for number
@@ -32,31 +32,29 @@ async function main() {
             { name: `Convert ${chalk.yellow('PKR')} to ${chalk.yellow('USD')} `, value: 'PKRtoUSD' },
             { name: `Convert ${chalk.yellow('USD')} to ${chalk.yellow('PKR')} `, value: 'USDtoPKR' },
             { name: `Convert ${chalk.yellow('SAR')} to ${chalk.yellow('PKR')} `, value: 'SARtoPKR' },
-            { name: 'Exit', value: 'exit' },
+            { name: "Exit", value: 'Exit' }
         ],
     });
     if (convertTo === 'PKRtoUSD') {
-        PKRtoUSD();
+        PKRtoUSD(amount);
     }
     if (convertTo === 'USDtoPKR') {
         USDtoPKR(amount);
-        main();
     }
     if (convertTo === 'SARtoPKR') {
-        SARtoPKR();
+        SARtoPKR(amount);
     }
-    if (convertTo === 'exit') {
-        console.log(chalk.blue('Bye! Buy!'));
-        return true;
+    if (convertTo === 'Exit') {
+        console.log(chalk.yellow('Bye! Bye!'));
     }
 }
 // Each function below relates to each choise 
-async function PKRtoUSD() {
-    main();
+async function PKRtoUSD(amount) {
+    return console.log(chalk.green(`${amount} PKR in USD is: ${parseFloat(amount) * PKRtoUSD_rate}`));
 }
 function USDtoPKR(amount) {
     return console.log(chalk.green(`${amount} PKR in USD is: ${parseFloat(amount) * USDtoPKR_rate}`));
 }
-async function SARtoPKR() {
-    main();
+async function SARtoPKR(amount) {
+    return console.log(chalk.green(`${amount} PKR in USD is: ${parseFloat(amount) * SARtoPKR_rate}`));
 }
