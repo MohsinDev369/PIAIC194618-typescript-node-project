@@ -1,0 +1,26 @@
+{
+  "name": "mohsindev-sms-cli",
+  "version": "1.0.0",
+  "description": "mohsindev word counter cli that counts words in a given paragraph",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "tsc && node bin/index.js",
+    "start": "tsc",
+    "global": "npm i -g && npx mohsindev-sms-cli",
+    "build": "npm run start && npm run global"
+  },
+  "bin": {
+    "mohsindev-sms": "bin/index.js"
+  },
+  "author": "mohsindev369",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "inquirer": "^9.1.5"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/inquirer": "^9.0.3"
+  }
+}
