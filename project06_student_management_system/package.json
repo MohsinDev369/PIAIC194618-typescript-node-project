@@ -1,7 +1,7 @@
 {
   "name": "mohsindev-sms-cli",
   "version": "1.0.0",
-  "description": "mohsindev word counter cli that counts words in a given paragraph",
+  "description": "mohsindev student management system nodejs cli created with typescript",
   "main": "src/index.ts",
   "type": "module",
   "scripts": {
